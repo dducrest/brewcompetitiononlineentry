@@ -41,7 +41,7 @@ $database = "e9n2vm43anlio1cw";
 This line strings the information together and connects to MySQL.  
 If MySQL is not found or the username/password combo is not correct an error will be returned.
 */
-$connection = mysqli_connect($hostname, $username, $password) or trigger_error(mysql_error());
+$connection = mysql_connect($hostname, $username, $password) or trigger_error(mysql_error());
 
 /* 
 Do not change the following line.

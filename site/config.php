@@ -16,26 +16,26 @@ REFER TO YOUR WEB HOST'S DOCUMENTATION regarding connecting to MySQL via PHP - v
 
 Generally, this line is left alone.
 */
-$hostname = "localhost";
+$hostname = "z12itfj4c1vgopf8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 
 /* 
 Provide the username for your database (generally the same as your login for your web hosting company).
 INSERT YOUR USERNAME BETWEEN THE DOUBLE-QUOTATION MARKS ("").
 For example, if your username is fred then the line should read $username = "fred".
 */
-$username = "";
+$username = "b41pasg3s3mvw49r";
 
 /* 
 INSERT YOUR PASSWORD BETWEEN THE DOUBLE-QUOTATION MARKS ("").
 For example, if your password is flintstone then the line should read $password = "flintsone".
 */
-$password = "";
+$password = "y8orcz9bejy5vxmf";
 
 /*
 The following line is the name of your MySQL database you set up already.  
 If you haven't set up the database yet, please refer to http://help.brewcompetition.com/index.html?installation.html for setup instructions. 
 */
-$database = "";
+$database = "e9n2vm43anlio1cw";
 
 /* 
 This line strings the information together and connects to MySQL.  

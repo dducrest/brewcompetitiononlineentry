@@ -41,7 +41,7 @@ $database = "e9n2vm43anlio1cw";
 This line strings the information together and connects to MySQL.  
 If MySQL is not found or the username/password combo is not correct an error will be returned.
 */
-$connection = mysql_connect($hostname, $username, $password) or trigger_error(mysql_error());
+$connection = mysqli_connect($hostname, $username, $password) or trigger_error(mysql_error());
 
 /* 
 Do not change the following line.
@@ -115,7 +115,7 @@ to FALSE!
  
 */
 
-$setup_free_access = FALSE;
+$setup_free_access = TRUE;
 
 
 /*
@@ -128,7 +128,7 @@ variable.
 * Be sure to INCLUDE a leading slash [/] and NO trailing slash [/]!
 
 Example:
-$sub_directory = "/bcoem"; 
+$sub_directory = "/"; 
 
 WARNING!!!
 IF you do enable the subdirectory variable, YOU MUST alter your .htaccess file
@@ -149,7 +149,7 @@ you'll need to replace the $base_url below with something formatted like this:
 $base_url = "http://ipaddressorhostingdomain/~accountname/subdirectoryname/";
 
 Example:
-$base_url = "http://123.45.678.9/~accountname/bcoem/";
+$base_url = "http://radiant-atoll-5076.herokuapp.com/";
 
 OR:
 $base_url = "http://www.yourhost.com/~accountname/bcoem/";
